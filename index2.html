@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    Página de Feedback
+    
+    Formulário de Feedback:
+    <form action="Enviar" method="post">
+        <label for="username">Name:</label><br>
+        <input type="text" id="username" name="username" required><br>
+        
+        <label for="date">Date:</label><br>
+        <input type="date" id="date" name="date" required><br>
+        
+        <label for="comment">comment:</label><br>
+        <textarea id="comment" name="comment" rows="4" required></textarea><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Data</th>
+                <th>Avaliação Textual</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>João</td>
+                <td>2024-03-25</td>
+                <td>Gostei muito do site, muito útil e fácil de usar!</td>
+            </tr>
+            <tr>
+                <td>Fulano</td>
+                <td>2024-03-28</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>             
